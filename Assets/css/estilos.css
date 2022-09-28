@@ -1,6 +1,89 @@
-#row-ficha1{
-    background-image:url(../img/ficha1.jpg);
-    max-width: 1920px;
-    max-height: 1280px;
+.container{
+    max-width: 1100px;
+}
+header{
+    background-image: url("/Assets/img/ficha1.jpg");
+    height: 700px;
+    background-size: cover;
 
 }
+.btn-primary:hover{
+    border: 1px solid #802B2D!important ;
+    background-color: #802B2D!important;
+    color: #fff!important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #FFF!important;
+    border-radius: 0px!important;
+}
+.titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    font-family:"playfair, display";
+    margin-top: 50px!important;
+}
+.navbar-brand{
+    max-height: 80px;
+}
+.bg-dark {
+    background-color: transparent!important;
+}
+.logo{
+    width: 100px;
+}
+.inventario-container {
+    margin-top: 70px;
+    max-height: 400px;  
+    padding-top:500px;
+    min-width: 500px;
+    user-select: none;
+    border: 2px solid #BC5D2E;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  .create-inventario-button {
+      margin-top: 10px;
+      max-width: 300px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      place-items: center;
+  }
+.modal-content{
+    background-color: transparent!important;
+    color: white;
+}
+.modal-body {
+    border: 1px solid white;
+    position: relative;
+    flex: 1 1 auto;
+    margin: 5px;
+    border-radius: 0px;
+    background: transparent;
+    }
+.modal-header {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.modal-header{
+  background-color: transparent;
+  color: #1a1a1a;
+}
+.modal-footer{
+  background-color: transparent;
+  justify-content: center!important;
+}
+.close{
+  border-radius: 0px;
+  background-color: transparent;
+  color: #fff;
+}
+.close:hover{
+  border-color: #000;
+  background-color: #000;
+  color:#fff;
+} 
+
