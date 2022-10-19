@@ -285,6 +285,7 @@ margin:0 5px;
 }
 
 .contact-us-detail {
+    display: none;
     position: absolute;
     left: 83%;
     top: -4%;
@@ -405,4 +406,16 @@ margin:0 5px;
 	background: url(https://s23.postimg.org/klq72xovv/pattern_bg.png);
 	background-repeat: repeat;
 }
+@media (max-width: 760px){
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+  /* margin: auto; */
+  /* margin-right: 50px!important; */
+  padding: 20px 40px 20px 40px;
+}
+}
+.border-bottom {
+  border-bottom: 1px solid #802B2D!important;
+}
+
 
